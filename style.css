@@ -202,6 +202,11 @@ ul {
     display: block;
 }
 
+/* our-services section */
+.our-services {
+    min-height: 100vh;
+}
+
 /* my-team section start */
 .my-team {
     background-color: #e1e1e1;

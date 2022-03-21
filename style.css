@@ -275,3 +275,7 @@ ul {
 .my-team {
     position: relative;
 }
+
+.border-red-design {
+    border-bottom: 5px solid red;
+}

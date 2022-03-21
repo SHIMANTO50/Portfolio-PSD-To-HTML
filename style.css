@@ -204,7 +204,9 @@ ul {
 
 /* my-team section start */
 .my-team {
-    background-color: #e1e1e1
+    background-color: #e1e1e1;
+    position: relative;
+    min-height: 100vh;
 }
 
 .my-team-header-color {
@@ -257,7 +259,7 @@ ul {
 }
 
 .my-team-overlay {
-    background-color: rgba(199, 15, 15, 0.26);
+    background-color: rgba(199, 15, 15, 0.3);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -272,10 +274,31 @@ ul {
     display: block;
 }
 
-.my-team {
+.border-red-design {
+    border-bottom: 5px solid red;
+}
+
+/* our-portfolio start */
+.our-portfolio {
+    min-height: 100vh;
+}
+
+.portfolio-overlay {
+    display: none;
+    background-color: rgba(175, 19, 19, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.portfolio-pic {
     position: relative;
 }
 
-.border-red-design {
-    border-bottom: 5px solid red;
+.portfolio-pic:hover .portfolio-overlay {
+    display: block;
 }

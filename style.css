@@ -307,3 +307,8 @@ ul {
 .portfolio-pic:hover .portfolio-overlay {
     display: block;
 }
+
+/* latest blog section start */
+.blog-section {
+    min-height: 100vh;
+}
